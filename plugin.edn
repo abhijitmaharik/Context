@@ -1,0 +1,6 @@
+{:name "Context Coloring"
+ :version "0.0.1"
+ :author "Frankie Sardo"
+ :source ""
+ :desc "Context coloring for nested Clojure functions"
+ :behaviors "context.behaviors"}

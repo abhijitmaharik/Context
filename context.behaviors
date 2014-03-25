@@ -1,0 +1,8 @@
+{:+ {:app [(:lt.objs.plugins/load-js "context_compiled.js" true)
+           (:lt.objs.plugins/load-css "colors.css")]
+     :editor.behaviors [:lt.plugins.context/context-coloring]
+     :editor.keymap [:lt.plugins.context/context-coloring]
+     :editor.clj [:lt.plugins.context/context-coloring]
+     :editor.cljs [:lt.plugins.context/context-coloring]
+     :editor.clj.instarepl [:lt.plugins.context/context-coloring]
+     }}
